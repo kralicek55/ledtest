@@ -1,0 +1,5 @@
+basic.show_icon(IconNames.CHESSBOARD)
+dolniPasek = neopixel.create(DigitalPin.P0, 71, NeoPixelMode.RGB)
+horniPasek = neopixel.create(DigitalPin.P1, 71, NeoPixelMode.RGB)
+horniPasek.show_rainbow(1, 360)
+dolniPasek.show_color(neopixel.colors(NeoPixelColors.WHITE))
