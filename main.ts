@@ -1,6 +1,3 @@
-input.onSound(DetectedSound.Loud, function () {
-	
-})
 basic.showIcon(IconNames.Chessboard)
 let dolniPasek = neopixel.create(DigitalPin.P0, 71, NeoPixelMode.RGB)
 let horniPasek = neopixel.create(DigitalPin.P1, 71, NeoPixelMode.RGB)
