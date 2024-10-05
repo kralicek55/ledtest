@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.7.5"
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.5",
+        "MakerBit-IR-Receiver": "github:1010technologies/pxt-makerbit-ir-receiver#v1.5.14"
     },
     "files": [
         "main.blocks",
@@ -18,7 +19,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "6.0.25",
+        "target": "7.0.42",
         "targetId": "microbit"
     },
     "supportedTargets": [
